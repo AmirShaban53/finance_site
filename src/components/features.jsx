@@ -13,13 +13,13 @@ const Features = () => {
   return (
     <div className="my-8 py-6">
       <Container>
-        <div className="text-center">
-          <p className="font-semibold text-5xl tracking-tighter mb-8">
-            Feel the best experience <br /> with our features.
+        <div className="text-center md:w-1/2 mx-auto mb-8 pb-4">
+          <p className="font-semibold text-2xl md:text-5xl tracking-tighter ">
+            Feel the best experience with our features.
           </p>
         </div>
         <div className="grid grid-cols-12 gap-6">
-          <div className="col-span-6 bg-zinc-100 rounded-xl py-12 px-16 pb-0">
+          <div className="col-span-12 md:col-span-6 bg-zinc-100 rounded-xl p-4 pt-8 md:py-12 md:px-16">
             <div className="mb-8">
               <span className="rounded-full p-3 bg-yellow-300">
                 <CreditCard />
@@ -37,7 +37,7 @@ const Features = () => {
               <img src="/svg/credit.svg" className="mx-auto w-2/3" />
             </div>
           </div>
-          <div className="col-span-6 bg-zinc-100 rounded-xl py-12 px-16 pb-0">
+          <div className="col-span-12 md:col-span-6 bg-zinc-100 rounded-xl p-4 pt-8 md:py-12 md:px-16">
             <div className="mb-8">
               <span className="rounded-full p-3 bg-yellow-300">
                 <TrendingUp />
@@ -55,7 +55,7 @@ const Features = () => {
               <img src="/svg/stats.svg" className="mx-auto " />
             </div>
           </div>
-          <div className="col-span-12 bg-zinc-100 rounded-xl py-12 px-16 pb-0 flex items-center gap-12">
+          <div className="col-span-12 bg-zinc-100 rounded-xl p-4 pt-8 md:py-12 md:px-16 md:flex items-center gap-12">
             <div className="basis-1/2">
               <div className="mb-8">
                 <span className="rounded-full p-3 bg-yellow-300">
@@ -75,7 +75,7 @@ const Features = () => {
               <img src="/svg/world.svg" className="mx-auto" />
             </div>
           </div>
-          <div className="col-span-4 bg-zinc-100 rounded-xl p-12 pb-0">
+          <div className="col-span-12 md:col-span-4 bg-zinc-100 rounded-xl p-8 md:p-12 pb-0">
             <div className="mb-8">
               <span className="rounded-full p-3 bg-yellow-300">
                 <PaymentsOutlined />
@@ -89,7 +89,7 @@ const Features = () => {
               <img src="/svg/coins.svg" className="mx-auto" />
             </div>
           </div>
-          <div className="col-span-4 bg-zinc-100 rounded-xl p-12 pb-0">
+          <div className="col-span-12 md:col-span-4 bg-zinc-100 rounded-xl p-8 md:p-12 pb-0">
             <div className="mb-8">
               <span className="rounded-full p-3 bg-yellow-300">
                 <LocalAtmOutlined />
@@ -103,7 +103,7 @@ const Features = () => {
               <img src="/svg/control.svg" className="mx-auto" />
             </div>
           </div>
-          <div className="col-span-4 bg-neutral-800 text-white rounded-xl p-12 pb-0 flex flex-col justify-center gap-16">
+          <div className="col-span-12 md:col-span-4 bg-neutral-800 text-white rounded-xl p-8 md:p-12  md:pb-0 flex flex-col justify-center gap-16">
             <p className="text-4xl tracking-tighter">check our other product features</p>
 
             <button

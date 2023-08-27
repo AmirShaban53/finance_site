@@ -12,18 +12,18 @@ const Footer = () => {
   return (
     <div className="my-4">
       <Container>
-        <div className="bg-neutral-800 text-white rounded-3xl p-16 mb-6">
+        <div className="bg-neutral-800 text-white rounded-3xl p-6 md:p-16 mb-6">
           <div className="mb-8">
             <span className="bg-yellow-300 p-3 rounded-full">
               <EmailOutlined className="text-black" />
             </span>
           </div>
-          <div className="flex justify-between items-center mb-12">
-            <div className=" space-y-8">
-              <p className="font-semibold text-5xl tracking-tighter">
-                Keep up with the <br /> latest
+          <div className="space-y-8 md:flex justify-between items-center mb-12">
+            <div className="space-y-4 md:space-y-8">
+              <p className="font-semibold text-3xl md:text-5xl tracking-tighter">
+                Keep up with the latest
               </p>
-              <p className="text-neutral-400 text-sm whitespace-nowrap">
+              <p className="text-neutral-400 text-sm md:whitespace-nowrap">
                 Join our newletter to stay up to date on features and releases.
               </p>
             </div>
@@ -37,7 +37,7 @@ const Footer = () => {
                   placeholder="Enter your email"
                   className="bg-neutral-700 outline-none text-sm text-zinc-300 rounded-full p-2 px-4 mr-4"
                 />
-                <button className="bg-yellow-300 text-sm text-black p-2 px-4 rounded-full">
+                <button className="bg-yellow-300 text-sm text-black p-2 md:px-4 rounded-full">
                   Subscribe
                 </button>
               </div>
@@ -49,13 +49,13 @@ const Footer = () => {
           </div>
           <hr className="border-zinc-600 mb-12" />
           <div className="grid grid-cols-9 gap-6 text-sm">
-            <div className="col-span-2">
-              <p className="font-bold mb-8">Finsy</p>
+            <div className="col-span-9 md:col-span-2">
+              <p className="font-bold mb-2 md:mb-8">Finsy</p>
               <p className="text-zinc-500">
                 Make your complicated finance more simple
               </p>
             </div>
-            <div className="col-span-1">
+            <div className="col-span-3 md:col-span-1">
               <p className="font-semibold mb-4">Finsy</p>
               <ul className="text-zinc-500 text-xs space-y-4">
                 <li>Payment</li>
@@ -63,7 +63,7 @@ const Footer = () => {
                 <li>Pricing</li>
               </ul>
             </div>
-            <div className="col-span-1">
+            <div className="col-span-3 md:col-span-1">
               <p className="font-semibold mb-4">Products</p>
               <ul className="text-zinc-500 text-xs space-y-4">
                 <li>Personal</li>
@@ -71,7 +71,7 @@ const Footer = () => {
                 <li>Invoice</li>
               </ul>
             </div>
-            <div className="col-span-1">
+            <div className="col-span-3 md:col-span-1">
               <p className="font-semibold mb-4">Company</p>
               <ul className="text-zinc-500 text-xs space-y-4">
                 <li>About</li>
@@ -79,7 +79,7 @@ const Footer = () => {
                 <li>Press Kit</li>
               </ul>
             </div>
-            <div className="col-span-1">
+            <div className="col-span-3 md:col-span-1">
               <p className="font-semibold mb-4">Developer</p>
               <ul className="text-zinc-500 text-xs space-y-4">
                 <li>API Docs</li>
@@ -87,14 +87,14 @@ const Footer = () => {
                 <li>Change log</li>
               </ul>
             </div>
-            <div className="col-span-1">
+            <div className="col-span-3 md:col-span-1">
               <p className="font-semibold mb-4">Community</p>
               <ul className="text-zinc-500 text-xs space-y-4">
                 <li>Refer a Friend</li>
                 <li>Git</li>
               </ul>
             </div>
-            <div className="col-span-1">
+            <div className="col-span-3 md:col-span-1">
               <p className="font-semibold mb-4">Support</p>
               <ul className="text-zinc-500 text-xs space-y-4">
                 <li>Help</li>
@@ -102,7 +102,7 @@ const Footer = () => {
                 <li>Contact</li>
               </ul>
             </div>
-            <div className="col-span-1">
+            <div className="col-span-3 md:col-span-1">
               <p className="font-semibold mb-4">Legal</p>
               <ul className="text-zinc-500 text-xs space-y-4">
                 <li>Privacy Policy</li>
@@ -112,22 +112,22 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="flex justify-between text-xs">
+        <div className="flex justify-between items-center text-xs">
           <div>
             <p>@{new Date().getFullYear()} Finsy. All copyright reserved</p>
           </div>
           <div className="space-x-4">
-            <span className="bg-yellow-300 text-sm p-2 rounded-full">
-              <Instagram className="text-black text-xs" />
+            <span className="text-sm rounded-full">
+              <Instagram fontSize="small" className="text-black text-xs" />
             </span>
-            <span className="bg-yellow-300 text-sm p-2 rounded-full">
-              <Facebook className="text-black text-xs" />
+            <span className="text-sm rounded-full">
+              <Facebook fontSize="small" className="text-black text-xs" />
             </span>
-            <span className="bg-yellow-300 text-sm p-2 rounded-full">
-              <Twitter className="text-black text-xs" />
+            <span className="text-sm rounded-full">
+              <Twitter fontSize="small" className="text-black text-xs" />
             </span>
-            <span className="bg-yellow-300 text-sm p-2 rounded-full">
-              <LinkedIn className="text-black text-xs w-1" />
+            <span className="text-sm rounded-full">
+              <LinkedIn fontSize="small" className="text-black text-xs w-1" />
             </span>
           </div>
         </div>
