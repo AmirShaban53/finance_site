@@ -15,7 +15,7 @@ const Mobile = () => {
               With this platform, you can access your account anywhere, anytime
               for balance and so much more.
             </p>
-            <div className="space-x-4">
+            <div className="space-x-4 my-12">
               <button
                 type="button"
                 className="border rounded-full p-3 px-4 border-zinc-400"
@@ -29,6 +29,9 @@ const Mobile = () => {
                 <Google /> <span>Download Now</span>
               </button>
             </div>
+          </div>
+          <div>
+            <img src='/svg/app.svg' className="w-2/3 mx-auto"/>
           </div>
         </div>
         <div className="mt-12">

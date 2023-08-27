@@ -5,7 +5,7 @@ const Companies = () => {
   return (
     <div className="my-8 py-6">
       <Container>
-        <div className="text-center">
+        <div className="text-center mb-8">
           <p className="text-5xl font-semibold tracking-tighter mb-4">
             200+ The fastest growing <br /> companies use Finsy.
           </p>

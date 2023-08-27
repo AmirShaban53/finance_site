@@ -6,6 +6,7 @@ import {
   AttachMoney,
   PaymentsOutlined,
   LocalAtmOutlined,
+  ArrowForward
 } from "@mui/icons-material";
 
 const Features = () => {
@@ -51,7 +52,7 @@ const Features = () => {
               financial habits.
             </p>
             <div>
-              <img src="/svg/credit.svg" className="mx-auto w-2/3" />
+              <img src="/svg/stats.svg" className="mx-auto " />
             </div>
           </div>
           <div className="col-span-12 bg-zinc-100 rounded-xl py-12 px-16 pb-0 flex items-center gap-12">
@@ -70,8 +71,8 @@ const Features = () => {
                 enjoy seamless transactions.
               </p>
             </div>
-            <div>
-              <img src="/images/400.png" className="mx-auto" />
+            <div className="basis-1/2">
+              <img src="/svg/world.svg" className="mx-auto" />
             </div>
           </div>
           <div className="col-span-4 bg-zinc-100 rounded-xl p-12 pb-0">
@@ -85,7 +86,7 @@ const Features = () => {
             </p>
 
             <div>
-              <img src="/images/400.png" className="mx-auto" />
+              <img src="/svg/coins.svg" className="mx-auto" />
             </div>
           </div>
           <div className="col-span-4 bg-zinc-100 rounded-xl p-12 pb-0">
@@ -99,17 +100,17 @@ const Features = () => {
             </p>
 
             <div>
-              <img src="/images/400.png" className="mx-auto" />
+              <img src="/svg/control.svg" className="mx-auto" />
             </div>
           </div>
-          <div className="col-span-4 bg-zinc-900 text-white rounded-xl py-12 px-16 pb-0">
-            <p>check our other product features</p>
+          <div className="col-span-4 bg-neutral-800 text-white rounded-xl p-12 pb-0 flex flex-col justify-center gap-16">
+            <p className="text-4xl tracking-tighter">check our other product features</p>
 
             <button
               type="button"
-              className="bg-yellow-500 font-semibold p-3 px-6 rounded-full"
+              className="bg-yellow-300 font-semibold p-3 px-6 rounded-full w-fit tracking-tighter text-neutral-900"
             >
-              Open Account
+              View More <ArrowForward/>
             </button>
           </div>
         </div>

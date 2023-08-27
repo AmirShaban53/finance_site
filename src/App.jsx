@@ -8,7 +8,7 @@ import Mobile from "./components/mobile";
 
 function App() {
   return (
-    <>
+    <div className="text-neutral-800">
       <Navbar />
       <Hero />
       <Features />
@@ -16,7 +16,7 @@ function App() {
       <Testimonials />
       <Mobile />
       <Footer />
-    </>
+    </div>
   );
 }
 
