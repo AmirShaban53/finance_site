@@ -19,48 +19,56 @@ const Companies = () => {
             <img
               className="object-contain object-center p-6 w-52"
               src="/logos/airbnb.png"
+              alt="company logo"
             />
           </div>
           <div className="col-span-6 md:col-span-3  h-16 md:h-32 object-center flex justify-center items-center bg-neutral-100 rounded-3xl">
             <img
               className="object-contain object-center p-6 w-52"
               src="/logos/slack.png"
+              alt="company logo"
             />
           </div>
           <div className="col-span-6 md:col-span-3  h-16 md:h-32 object-center flex justify-center items-center bg-neutral-100 rounded-3xl">
             <img
               className="object-contain object-center p-6 w-52"
               src="/logos/stripe.png"
+              alt="company logo"
             />
           </div>
           <div className="col-span-6 md:col-span-3  h-16 md:h-32 object-center flex justify-center items-center bg-neutral-100 rounded-3xl">
             <img
               className="object-contain object-center p-6 w-52"
               src="/logos/unity.png"
+              alt="company logo"
             />
           </div>
           <div className="col-span-6 md:col-span-3  h-16 md:h-32 object-center flex justify-center items-center bg-neutral-100 rounded-3xl">
             <img
               className="object-contain object-center p-6 w-52"
               src="/logos/spotify.png"
+              alt="company logo"
             />
           </div>
           <div className="col-span-6 md:col-span-3  h-16 md:h-32 object-center flex justify-center items-center bg-neutral-100 rounded-3xl">
             <img
               className="object-contain object-center p-6 w-52"
               src="/logos/blender.png"
+              alt="company logo"
             />
           </div>
           <div className="col-span-6 md:col-span-3  h-16 md:h-32 object-center flex justify-center items-center bg-neutral-100 rounded-3xl">
             <img
               className="object-contain object-center p-6 w-52"
               src="/logos/booking.png"
+              alt="company logo"
             />
           </div>
           <div className="col-span-6 md:col-span-3  h-16 md:h-32 object-center flex justify-center items-center bg-neutral-100 rounded-3xl">
             <img
               className="object-contain object-center p-6 w-52"
               src="/logos/coinbase.png"
+              alt="company logo"
             />
           </div>
         </div>

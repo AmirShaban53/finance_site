@@ -31,7 +31,7 @@ const Mobile = () => {
             </div>
           </div>
           <div>
-            <img src='/svg/app.svg' className="md:w-2/3 mx-auto"/>
+            <img src='/svg/app.svg' className="md:w-2/3 mx-auto" alt="mobile app"/>
           </div>
         </div>
         <div className="mt-12">

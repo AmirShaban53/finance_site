@@ -12,7 +12,11 @@ const Testimonials = () => {
         <div>
           <div className="bg-zinc-100 rounded-3xl flex flex-col-reverse md:flex-row">
             <div className="basis-1/2 relative">
-              <img src="/clients/mary.webp" className="md:absolute bottom-0 " />
+              <img
+                src="/clients/mary.webp"
+                className="md:absolute bottom-0 "
+                alt="client testimonial"
+              />
             </div>
             <div className="basis-1/2  p-8 md:pl-0">
               <p className="text-lg mb-6 text-neutral-500">
@@ -24,10 +28,18 @@ const Testimonials = () => {
               <div className="flex justify-between items-center">
                 <p className="font-semibold text-3xl">Ellena Putri</p>
                 <div className="space-x-4">
-                  <button type="button" className="border rounded-full p-2 ">
+                  <button
+                    type="button"
+                    className="border rounded-full p-2 "
+                    aria-aria-label="back button"
+                  >
                     <ArrowBack />
                   </button>
-                  <button type="button" className="border rounded-full p-2 ">
+                  <button
+                    type="button"
+                    className="border rounded-full p-2 "
+                    aria-aria-label="forward button"
+                  >
                     <ArrowForward />
                   </button>
                 </div>

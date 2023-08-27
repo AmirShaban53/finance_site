@@ -8,11 +8,11 @@ const Hero = () => {
       <Container>
         <div className="md:flex items-center gap-6">
           <div className="basis-[55%]">
-            <img src="/svg/saving.svg" className="mx-auto p-8" />
+            <img src="/svg/saving.svg" className="mx-auto p-8" alt="saving bank" />
           </div>
           <div className="basis-[45%] space-y-6 md:space-y-8">
             <div>
-              <p className="font-semibold text-4xl md:text-[5.2rem] md:leading-[5.2rem] tracking-tighter mb-6">
+              <p className="font-semibold text-4xl md:text-7xl tracking-tighter mb-6">
                 Control your financial future easily
               </p>
               <p className="text-neutral-600 md:text-lg">
@@ -41,14 +41,17 @@ const Hero = () => {
                 <img
                   src="/clients/profile01.webp"
                   className=" w-12 rounded-full border-2 border-white absolute"
+                  alt="client 1"
                 />
                 <img
                   src="/clients/profile02.webp"
                   className=" w-12 rounded-full border-2 border-white absolute left-10"
+                  alt="client 1"
                 />
                 <img
                   src="/clients/profile03.webp"
                   className=" w-12 rounded-full border-2 border-white absolute left-20"
+                  alt="client 1"
                 />
               </div>
               <div className="basis-1/2 md:basis-2/3">

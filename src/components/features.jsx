@@ -6,7 +6,7 @@ import {
   AttachMoney,
   PaymentsOutlined,
   LocalAtmOutlined,
-  ArrowForward
+  ArrowForward,
 } from "@mui/icons-material";
 
 const Features = () => {
@@ -34,7 +34,11 @@ const Features = () => {
               to customize the look of your card.
             </p>
             <div>
-              <img src="/svg/credit.svg" className="mx-auto w-2/3" />
+              <img
+                src="/svg/credit.svg"
+                alt="feature image"
+                className="mx-auto w-2/3"
+              />
             </div>
           </div>
           <div className="col-span-12 md:col-span-6 bg-zinc-100 rounded-xl p-4 pt-8 md:py-12 md:px-16">
@@ -52,7 +56,11 @@ const Features = () => {
               financial habits.
             </p>
             <div>
-              <img src="/svg/stats.svg" className="mx-auto " />
+              <img
+                src="/svg/stats.svg"
+                alt="feature image"
+                className="mx-auto "
+              />
             </div>
           </div>
           <div className="col-span-12 bg-zinc-100 rounded-xl p-4 pt-8 md:py-12 md:px-16 md:flex items-center gap-12">
@@ -72,7 +80,11 @@ const Features = () => {
               </p>
             </div>
             <div className="basis-1/2">
-              <img src="/svg/world.svg" className="mx-auto" />
+              <img
+                src="/svg/world.svg"
+                alt="feature image"
+                className="mx-auto"
+              />
             </div>
           </div>
           <div className="col-span-12 md:col-span-4 bg-zinc-100 rounded-xl p-8 md:p-12 pb-0">
@@ -86,7 +98,11 @@ const Features = () => {
             </p>
 
             <div>
-              <img src="/svg/coins.svg" className="mx-auto" />
+              <img
+                src="/svg/coins.svg"
+                alt="feature image"
+                className="mx-auto"
+              />
             </div>
           </div>
           <div className="col-span-12 md:col-span-4 bg-zinc-100 rounded-xl p-8 md:p-12 pb-0">
@@ -100,17 +116,23 @@ const Features = () => {
             </p>
 
             <div>
-              <img src="/svg/control.svg" className="mx-auto" />
+              <img
+                src="/svg/control.svg"
+                alt="feature image"
+                className="mx-auto"
+              />
             </div>
           </div>
           <div className="col-span-12 md:col-span-4 bg-neutral-800 text-white rounded-xl p-8 md:p-12  md:pb-0 flex flex-col justify-center gap-16">
-            <p className="text-4xl tracking-tighter">check our other product features</p>
+            <p className="text-4xl tracking-tighter">
+              check our other product features
+            </p>
 
             <button
               type="button"
               className="bg-yellow-300 font-semibold p-3 px-6 rounded-full w-fit tracking-tighter text-neutral-900"
             >
-              View More <ArrowForward/>
+              View More <ArrowForward />
             </button>
           </div>
         </div>
