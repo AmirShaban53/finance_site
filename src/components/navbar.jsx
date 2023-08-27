@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { Container } from "./layout";
 import { Menu } from "@mui/icons-material";
+import { motion } from "framer-motion";
+import { btnVart } from "../animations";
 
 const Navbar = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -29,19 +31,19 @@ const Navbar = () => {
           >
             <ul className="md:flex gap-12 font-semibold space-y-12 md:space-y-0 text-center w-full">
               <li className="capitalize">
-                <a href="#">products</a>
+                <a href="#product">products</a>
               </li>
               <li className="capitalize">
-                <a href="#">company</a>
+                <a href="#companies">company</a>
               </li>
               <li className="capitalize">
-                <a href="#">features</a>
+                <a href="#features">features</a>
               </li>
               <li className="capitalize">
                 <a href="#">pricing</a>
               </li>
               <li className="capitalize">
-                <a href="#">support</a>
+                <a href="#support">support</a>
               </li>
               <li className="md:hidden">
                 <div className="space-x-8 font-semibold">
@@ -59,15 +61,24 @@ const Navbar = () => {
             </ul>
           </div>
           <div className="space-x-8 font-semibold hidden md:block">
-            <button type="button" className="bg-zinc-50">
-              Login
-            </button>
-            <button
+            <motion.button
+              variants={btnVart}
+              whileHover={"hover"}
+              whileTap={"tap"}
               type="button"
-              className="bg-zinc-800 text-white p-2 px-5 rounded-full"
+              className="bg-zinc-50 text-sm p-2 px-4 rounded-full border"
+            >
+              Login
+            </motion.button>
+            <motion.button
+              variants={btnVart}
+              whileHover={"hover"}
+              whileTap={"tap"}
+              type="button"
+              className="bg-zinc-800 text-white text-sm p-2 px-4 rounded-full"
             >
               Open Account
-            </button>
+            </motion.button>
           </div>
         </div>
       </Container>

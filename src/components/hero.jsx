@@ -1,6 +1,8 @@
 import React from "react";
 import { Container } from "./layout";
-import { ArrowDropUp } from "@mui/icons-material";
+import { ArrowDropUp, AppShortcutOutlined } from "@mui/icons-material";
+import { motion } from "framer-motion";
+import { btnVart } from "../animations";
 
 const Hero = () => {
   return (
@@ -8,7 +10,11 @@ const Hero = () => {
       <Container>
         <div className="md:flex items-center gap-6">
           <div className="basis-[55%]">
-            <img src="/svg/saving.svg" className="mx-auto p-8" alt="saving bank" />
+            <img
+              src="/svg/saving.svg"
+              className="mx-auto p-8"
+              alt="saving bank"
+            />
           </div>
           <div className="basis-[45%] space-y-6 md:space-y-8">
             <div>
@@ -22,18 +28,24 @@ const Hero = () => {
             </div>
 
             <div className="space-x-3 md:space-x-6 text-center md:text-left">
-              <button
+              <motion.button
+                variants={btnVart}
+                whileHover={"hover"}
+                whileTap={"tap"}
                 type="button"
                 className="bg-yellow-300 font-semibold p-3 md:px-6 rounded-full"
               >
                 Open Account
-              </button>
-              <button
+              </motion.button>
+              <motion.button
+                variants={btnVart}
+                whileHover={"hover"}
+                whileTap={"tap"}
                 type="button"
                 className="font-semibold border p-3 md:px-6 rounded-full"
               >
                 Generate your Card
-              </button>
+              </motion.button>
             </div>
 
             <div className="flex">

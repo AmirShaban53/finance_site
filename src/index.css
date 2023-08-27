@@ -7,7 +7,9 @@ html {
   scroll-padding: 4rem;
 }
 
-
+.grad{
+  background:radial-gradient(at bottom left,rgb(55, 54, 38) , rgb(23 23 23 ));
+}
 /* a {
   font-weight: 500;
   color: #646cff;

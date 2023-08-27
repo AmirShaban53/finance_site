@@ -6,9 +6,11 @@ import Footer from "./components/footer";
 import Testimonials from "./components/testimonials";
 import Mobile from "./components/mobile";
 
+import { motion } from "framer-motion";
+
 function App() {
   return (
-    <div className="text-neutral-800">
+    <motion.div initial="initial" animate="animate" className="text-neutral-800">
       <Navbar />
       <Hero />
       <Features />
@@ -16,7 +18,7 @@ function App() {
       <Testimonials />
       <Mobile />
       <Footer />
-    </div>
+    </motion.div>
   );
 }
 

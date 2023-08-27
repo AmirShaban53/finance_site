@@ -3,7 +3,7 @@ import { Container } from "./layout";
 
 const Companies = () => {
   return (
-    <div className="my-8 py-6">
+    <div className="my-8 py-6" id="companies">
       <Container>
         <div className="text-center mb-8 pb-4 md:w-1/2 mx-auto">
           <p className="text-2xl md:text-5xl font-semibold tracking-tighter mb-4">

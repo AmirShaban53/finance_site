@@ -8,10 +8,12 @@ import {
   LocalAtmOutlined,
   ArrowForward,
 } from "@mui/icons-material";
+import { motion } from "framer-motion";
+import { btnVart } from "../animations";
 
 const Features = () => {
   return (
-    <div className="my-8 py-6">
+    <div className="my-8 py-6" id="features">
       <Container>
         <div className="text-center md:w-1/2 mx-auto mb-8 pb-4">
           <p className="font-semibold text-2xl md:text-5xl tracking-tighter ">
@@ -123,17 +125,23 @@ const Features = () => {
               />
             </div>
           </div>
-          <div className="col-span-12 md:col-span-4 bg-neutral-800 text-white rounded-xl p-8 md:p-12  md:pb-0 flex flex-col justify-center gap-16">
+          <div className="col-span-12 md:col-span-4 grad bg-neutral-800 text-white rounded-xl p-8 md:p-12  md:pb-0 flex flex-col justify-center gap-16">
             <p className="text-4xl tracking-tighter">
               check our other product features
             </p>
 
-            <button
+            <motion.button
+            variants={btnVart}
+            whileHover={"hover"}
+            whileTap={"tap"}
               type="button"
-              className="bg-yellow-300 font-semibold p-3 px-6 rounded-full w-fit tracking-tighter text-neutral-900"
+              className="bg-yellow-300 font-semibold p-3 px-6 rounded-full w-fit tracking-tighter text-neutral-900 relative group overflow-hidden "
             >
-              View More <ArrowForward />
-            </button>
+              <span className="inline-block group-hover:w-full h-full absolute top-0 left-0 bg-white w-0 origin-left duration-500 transition-all z-0 rounded-full"></span>
+              <span className=" relative">
+                View More <ArrowForward />
+              </span>
+            </motion.button>
           </div>
         </div>
       </Container>
