@@ -7,7 +7,7 @@ const Hero = () => {
       <Container>
         <div className="flex items-center gap-6">
           <div className="basis-3/5">
-            <img src="/images/400.png" className="mx-auto" />
+            <img src="/svg/saving.svg" className="mx-auto p-8" />
           </div>
           <div className="basis-2/5 space-y-10">
             <div>
@@ -23,7 +23,7 @@ const Hero = () => {
             <div className="space-x-6">
               <button
                 type="button"
-                className="bg-yellow-500 font-semibold p-3 px-6 rounded-full"
+                className="bg-blue-400 font-semibold p-3 px-6 rounded-full"
               >
                 Open Account
               </button>
